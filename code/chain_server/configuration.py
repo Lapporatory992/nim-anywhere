@@ -94,7 +94,7 @@ class LLMModelConfig(BaseModel):
     name: Annotated[
         str,
         Field(
-            "meta/llama3-8b-instruct",
+            "meta/llama-3.1-8b-instruct:1.8.0-RTX",
             description="The name of the model to request.",
         ),
     ]

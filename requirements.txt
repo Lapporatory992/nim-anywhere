@@ -1,6 +1,5 @@
 confz==2.0.1
 fastapi==0.115.6
-gradio==5.9.1
 grandalf==0.8
 jupyterlab>3.0
 langchain==0.3.14
@@ -17,3 +16,4 @@ redis==5.2.1
 sse-starlette==2.2.1
 uvicorn==0.34.0
 watchfiles==1.0.3
+gradio

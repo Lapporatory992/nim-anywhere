@@ -52,7 +52,7 @@ services:
       - default
 
   llm-nim:
-    image: "nvcr.io/nim/meta/llama3-8b-instruct:1"
+    image: "nvcr.io/nim/meta/llama-3.1-8b-instruct:1.8.0-RTX"
     profiles: ["Local LLM", "Local LLM + Embedding", "Local LLM + Embedding + Reranking"]
     deploy:
       resources:
